@@ -21,4 +21,4 @@ import { AuthRoutingModule } from './auth-routing.module';
     MaterialModule
   ]
 })
-export class AuthModule { }
+export class AuthModule {}

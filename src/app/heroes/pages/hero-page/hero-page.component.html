@@ -24,24 +24,33 @@
   <mat-card class="col-12 sm:col-6">
 
     <mat-card-header>
-      <mat-card-title>Información</mat-card-title>
-      <mat-card-subtitle>{{ hero.superhero }}</mat-card-subtitle>
+      <mat-card-title>{{ hero.superhero }}</mat-card-title>
     </mat-card-header>
-
+    <mat-divider class="mb-2"></mat-divider>
     <mat-card-content>
+
       <mat-list>
+        <mat-card-subtitle>Primera aparición</mat-card-subtitle>
         <mat-list-item>{{ hero.first_appearance }}</mat-list-item>
+        <mat-card-subtitle>Personajes</mat-card-subtitle>
         <mat-list-item>{{ hero.characters }}</mat-list-item>
+        <mat-card-subtitle>Creador</mat-card-subtitle>
         <mat-list-item>{{ hero.publisher }}</mat-list-item>
+        <mat-card-subtitle>Alter ego</mat-card-subtitle>
         <mat-list-item>{{ hero.alter_ego }}</mat-list-item>
       </mat-list>
+
+      <mat-divider class="mb-2"></mat-divider>
+
       <button
-       mat-button
-       color="warn"
+       mat-flat-button
+       color="basic"
        (click)="goBack()"
       >
+      <mat-icon>arrow_back_ios</mat-icon>
         Regresar
       </button>
+
     </mat-card-content>
 
   </mat-card>

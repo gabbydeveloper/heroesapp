@@ -28,8 +28,63 @@
              >
           </mat-form-field>
 
+          <mat-form-field class="col-12">
+            <mat-label>Primera aparición</mat-label>
+            <input
+              matInput
+              type="text"
+              required=""
+             >
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <mat-label>Personajes</mat-label>
+            <input
+              matInput
+              type="text"
+              required=""
+             >
+          </mat-form-field>
+
+          <mat-form-field class="col-12">
+            <mat-label>Creador</mat-label>
+            <mat-select required="">
+              <mat-option
+              *ngFor="let publisher of publishers"
+              [value]="publisher.id"
+              >
+              {{ publisher.desc }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="flex justify-content-between">
+          <button
+             mat-flat-button
+             color="warn"
+          >
+            Borrar
+          </button>
+          <button
+             mat-flat-button
+             color="primary"
+          >
+            Guardar
+          </button>
+          <button
+            mat-stroked-button
+            color="link"
+            routerLink="/heroes/"
+          >
+          Cancelar
+          </button>
         </div>
       </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="col-12 sm:col-6">
+    <mat-card>
+      <img src="" alt="Imagen del héroe" mat-card-image>
     </mat-card>
   </div>
 </div>
