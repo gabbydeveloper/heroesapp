@@ -28,5 +28,20 @@
     </mat-autocomplete>
 
   </mat-form-field>
-  {{selectedHero | json }}
+  <mat-card-content>
+
+    <mat-list>
+      <h1>{{ selectedHero?.superhero }}</h1>
+      <h4>{{ selectedHero?.alter_ego }}</h4>
+      <mat-divider class="mb-2" *ngIf="selectedHero"></mat-divider>
+      <mat-card-subtitle *ngIf="selectedHero">Primera aparición</mat-card-subtitle>
+      <mat-list-item>{{ selectedHero?.first_appearance }}</mat-list-item>
+      <mat-card-subtitle *ngIf="selectedHero">Personajes</mat-card-subtitle>
+      <mat-list-item>{{ selectedHero?.characters }}</mat-list-item>
+      <mat-card-subtitle *ngIf="selectedHero">Creador</mat-card-subtitle>
+      <mat-list-item>{{ selectedHero?.publisher }}</mat-list-item>
+      <mat-card-subtitle *ngIf="selectedHero">Alter ego</mat-card-subtitle>
+      <mat-list-item>{{ selectedHero?.alter_ego }}</mat-list-item>
+    </mat-list>
+  </mat-card-content>
 </div>
