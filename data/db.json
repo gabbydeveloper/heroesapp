@@ -8,60 +8,13 @@
   ],
   "heroes": [
     {
-      "id": "dc-batman",
-      "superhero": "Batman",
-      "publisher": "DC Comics",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "The first comic #2",
-      "characters": "Bruce Wayne"
-    },
-    {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
-    },
-    {
-      "id": "dc-flash",
-      "superhero": "Flash",
-      "publisher": "DC Comics",
-      "alter_ego": "Jay Garrick",
-      "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
-    },
-    {
-      "id": "dc-green",
-      "superhero": "Green Lantern",
-      "publisher": "DC Comics",
-      "alter_ego": "Alan Scott",
-      "first_appearance": "All-American Comics #16",
-      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
-    },
-    {
-      "id": "dc-arrow",
-      "superhero": "Green Arrow",
-      "publisher": "DC Comics",
-      "alter_ego": "Oliver Queen",
-      "first_appearance": "More Fun Comics #73",
-      "characters": "Oliver Queen"
-    },
-    {
       "id": "dc-wonder",
       "superhero": "Wonder Woman",
       "publisher": "DC Comics",
       "alter_ego": "Princess Diana",
       "first_appearance": "All Star Comics #8",
-      "characters": "Princess Diana"
-    },
-    {
-      "id": "dc-martian",
-      "superhero": "Martian Manhunter",
-      "publisher": "DC Comics",
-      "alter_ego": "J\"onn J\"onzz",
-      "first_appearance": "Detective Comics #225",
-      "characters": "Martian Manhunter"
+      "characters": "Princess Diana",
+      "alt_img": "https://i.pinimg.com/736x/94/06/18/9406184dd237b25bd8690baa84e1da2d.jpg"
     },
     {
       "id": "dc-robin",
@@ -166,6 +119,24 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "aFtYFtM",
+      "superhero": "Super Programmer Girl",
+      "publisher": "DC Comics",
+      "alter_ego": "Anita Acosta",
+      "first_appearance": "Comic #1",
+      "characters": "Anita Acosta",
+      "alt_img": "https://www.geco.com.ec/superprogrammergirl.png"
+    },
+    {
+      "id": "bt87dJ5",
+      "superhero": "Marvel Captain",
+      "publisher": "Marvel Comics",
+      "alter_ego": "No se",
+      "first_appearance": "Comic #1",
+      "characters": "No se",
+      "alt_img": "https://cdn.superaficionados.com/imagenes/captain-marvel-0_cke.jpg"
     }
   ]
 }
