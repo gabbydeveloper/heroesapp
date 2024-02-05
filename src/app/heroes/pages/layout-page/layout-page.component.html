@@ -23,9 +23,12 @@
       <mat-icon>menu</mat-icon>
     </button>
     <span class="spacer"></span>
+
+    <span>{{ user?.email }}</span>
+
     <button
       mat-button
-      routerLink="/auth/"
+      (click)="onLogout()"
     >
     <mat-icon>arrow_back_ios</mat-icon>
     Logout

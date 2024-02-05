@@ -42,6 +42,14 @@
       <mat-list-item>{{ selectedHero?.publisher }}</mat-list-item>
       <mat-card-subtitle *ngIf="selectedHero">Alter ego</mat-card-subtitle>
       <mat-list-item>{{ selectedHero?.alter_ego }}</mat-list-item>
+      <button
+       mat-flat-button
+       color="primary"
+       *ngIf="selectedHero"
+       [routerLink]="['/heroes/edit', selectedHero.id]"
+      >
+      Ver
+      </button>
     </mat-list>
   </mat-card-content>
 </div>
